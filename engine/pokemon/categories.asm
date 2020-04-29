@@ -4,7 +4,7 @@ GetMoveCategoryName:
 	ld a, b
 	dec a
 	ld bc, MOVE_LENGTH
-	ld hl, Moves  MOVE_TYPE
+	ld hl, Moves + MOVE_TYPE
 	call AddNTimes
 	ld a, BANK(Moves)
 	call GetFarByte
