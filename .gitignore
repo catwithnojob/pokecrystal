@@ -50,3 +50,9 @@ gfx/pokemon/*/bitmask.asm
 gfx/pokemon/*/frames.asm
 !gfx/pokemon/unown/bitmask.asm
 !gfx/pokemon/unown/frames.asm
+tools/unnamed.py
+tools/toc.py
+tools/free_space.awk
+tools/compare2.sh
+tools/compare.sh
+.travis/webhook.sh
