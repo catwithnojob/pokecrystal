@@ -124,7 +124,6 @@ pokecrystal-au.gbc: $(crystal_au_obj) layout.link
 
 gfx/pokemon/%/front.animated.2bpp: gfx/pokemon/%/front.2bpp gfx/pokemon/%/front.dimensions
 	tools/pokemon_animation_graphics -o $@ $^
-	tools/trim_animation.sh $@ $(word 2,$^)
 
 ### Misc file-specific graphics rules
 
