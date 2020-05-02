@@ -390,7 +390,16 @@ _HallOfFamePC:
 	call HOF_PlayCry
 	and a
 	ret
-	
+
+.EmptyString:
+	db "@"
+
+.HOFMaster:
+	db "    HOF Master!@"
+
+.TimeFamer:
+	db "    -Time Famer@"
+
 HOF_PlayCry::
 	ld a, [wCurPartySpecies]
 	cp EGG
@@ -405,16 +414,7 @@ HOF_PlayCry::
 	ld a, 1
 	ld [wCurPartySpecies], a
 	ret
-
-.EmptyString:
-	db "@"
-
-.HOFMaster:
-	db "    HOF Master!@"
-
-.TimeFamer:
-	db "    -Time Famer@"
-
+	
 LoadHOFTeam:
 	ld a, [wJumptableIndex]
 	cp NUM_HOF_TEAMS
