@@ -564,8 +564,8 @@ ENDM
 	map_attributes VermilionGym, VERMILION_GYM, $00, 0
 	map_attributes Route6SaffronGate, ROUTE_6_SAFFRON_GATE, $00, 0
 	map_attributes Route6UndergroundPathEntrance, ROUTE_6_UNDERGROUND_PATH_ENTRANCE, $00, 0
-	map_attributes RedsHouse1F, REDS_HOUSE_1F, $00, 0
-	map_attributes RedsHouse2F, REDS_HOUSE_2F, $00, 0
+	map_attributes KantoPlayersHouse1F, KANTOPLAYERS_HOUSE_1F, $00, 0
+	map_attributes KantoPlayersHouse2F, KANTOPLAYERS_HOUSE_2F, $00, 0
 	map_attributes BluesHouse, BLUES_HOUSE, $00, 0
 	map_attributes OaksLab, OAKS_LAB, $00, 0
 	map_attributes PewterNidoranSpeechHouse, PEWTER_NIDORAN_SPEECH_HOUSE, $00, 0

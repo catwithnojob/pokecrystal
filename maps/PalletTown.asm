@@ -55,7 +55,7 @@ PalletTownSignText:
 	done
 
 RedsHouseSignText:
-	text "RED'S HOUSE"
+	text "<PLAYER>'S HOUSE"
 	done
 
 OaksLabSignText:
@@ -71,7 +71,7 @@ PalletTown_MapEvents:
 	db 0, 0 ; filler
 
 	db 3 ; warp events
-	warp_event  5,  5, REDS_HOUSE_1F, 1
+	warp_event  5,  5, KANTOPLAYERS_HOUSE_1F, 1
 	warp_event 13,  5, BLUES_HOUSE, 1
 	warp_event 12, 11, OAKS_LAB, 1
 

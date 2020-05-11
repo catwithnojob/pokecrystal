@@ -266,7 +266,7 @@ Route39_Blocks:
 	INCBIN "maps/Route39.blk"
 
 PlayersHouse1F_Blocks:
-	INCBIN "maps/PlayersHouse1F.blk"
+	INCBIN "maps/GoldsHouse1F.blk"
 
 Route38EcruteakGate_Blocks:
 Route42EcruteakGate_Blocks:
@@ -847,7 +847,7 @@ SafariZoneMainOffice_Blocks:
 	INCBIN "maps/OlivineCafe.blk"
 
 PlayersHouse2F_Blocks:
-	INCBIN "maps/PlayersHouse2F.blk"
+	INCBIN "maps/GoldsHouse2F.blk"
 
 SaffronMagnetTrainStation_Blocks:
 	INCBIN "maps/SaffronMagnetTrainStation.blk"
@@ -883,11 +883,11 @@ TrainerHouse1F_Blocks:
 TrainerHouseB1F_Blocks:
 	INCBIN "maps/TrainerHouseB1F.blk"
 
-RedsHouse1F_Blocks:
-	INCBIN "maps/RedsHouse1F.blk"
+KantoPlayersHouse1F_Blocks:
+	INCBIN "maps/PlayersHouse1F.blk"
 
-RedsHouse2F_Blocks:
-	INCBIN "maps/RedsHouse2F.blk"
+KantoPlayersHouse2F_Blocks:
+	INCBIN "maps/PlayersHouse2F.blk"
 
 OaksLab_Blocks:
 	INCBIN "maps/OaksLab.blk"
